@@ -18,24 +18,16 @@
 
 </head>
 <body>
-    <h1>โปรแกรมภาษา HTMl</h1>
+    <h1>โปรแกรมภาษา PHP สร้างฟอมรับข้อมูล</h1>
     664485003 กิตดนัย นราแก้ว <br>
     หมู่เรียน 66/96
-    <?php
-    // ทดสอบ comment ภาษา php
-    echo "<h2>สวัสดี ปีใหม่</h2>";
-    echo "<br>ขอให้ทุกคนประสบแต่ความสุข";
-    // สร้างตัวแปร
-    $name="กิตดนัย";
-    $surname="นราแก้ว";
-    echo "<br>ชื่อของคุณคือ" .$name." ".$surname;
-    $x=15;
-    $y=7;
-    $z=$x+$y;
-    echo "<br> ค่าผลบวกเท่ากับ" .$z;
-    $z=$x*$y;
-    echo "<br> ค่าผลคูณเท่ากับ" .$z;
+    <h2>โปรแกรมพื้นที่สี่เหลี่ยมผื้นผ้า</h2>
 
-    ?>
+    <form action="ex8.php" method="POST">
+        ยาว <input type="text" name="w"> 
+        กว้าง <input type="text" name="h">
+        <input type="submit" value="กดส่งข้อมูล">
+    </form>
+    
 </body>
 </html>
